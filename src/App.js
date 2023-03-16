@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import JsonData from './data/website.json'
+import cocData from './data/clashofclan.json'
+import Navbar from './components/Navbar'
+import HeroSection from './components/HeroSection'
+import ContentSection from './components/ContentSection'
+import MainSection from './components/MainSection'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar logo={JsonData.logo} icons={JsonData.Icons} />
+      <HeroSection data={JsonData.heroSection} apps={JsonData.AppBtn} />
+      <ContentSection section="about" data={JsonData.aboutSection} url={JsonData.AppBtn} />
+      <MainSection data={cocData} />
+      <ContentSection section="update" data={JsonData.updateSection} url={JsonData.SocialBtn} />
+      <Footer logo={JsonData.logo} appLinks={JsonData.AppBtn} socialLinks={JsonData.SocialBtn} />
     </div>
   );
 }

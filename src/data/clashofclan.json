@@ -1,0 +1,122 @@
+{
+    "Troops": [
+        {
+            "name": "Barbarian",
+            "img": "assets/clashofclan/Barbarian.png"
+        },
+        {
+            "name": "Archer",
+            "img": "assets/clashofclan/Archer.png"
+        },
+        {
+            "name": "Giant",
+            "img": "assets/clashofclan/Giant.png"
+        },
+        {
+            "name": "Goblin",
+            "img": "assets/clashofclan/Goblin.png"
+        },
+        {
+            "name": "Wall Breaker",
+            "img": "assets/clashofclan/Wall_Breaker.png"
+        },
+        {
+            "name": "Balloon",
+            "img": "assets/clashofclan/Balloon.png"
+        },
+        {
+            "name": "Wizard",
+            "img": "assets/clashofclan/Wizard.png"
+        },
+        {
+            "name": "Healer",
+            "img": "assets/clashofclan/Healer.png"
+        },
+        {
+            "name": "Dragon",
+            "img": "assets/clashofclan/Dragon.png"
+        },
+        {
+            "name": "P.E.K.K.A",
+            "img": "assets/clashofclan/PEKKA.png"
+        },
+        {
+            "name": "Baby Dragon",
+            "img": "assets/clashofclan/Baby_Dragon.png"
+        },
+        {
+            "name": "Miner",
+            "img": "assets/clashofclan/Miner.png"
+        },
+        {
+            "name": "Electro Dragon",
+            "img": "assets/clashofclan/Electro_Dragon.png"
+        },
+        {
+            "name": "Yeti",
+            "img": "assets/clashofclan/Yeti.png"
+        },
+        {
+            "name": "Dragon Rider",
+            "img": "assets/clashofclan/Dragon_Rider.png"
+        },
+        {
+            "name": "Electro Titan",
+            "img": "assets/clashofclan/Electro_Titan.png"
+        },
+        {
+            "name": "Minion",
+            "img": "assets/clashofclan/Minion.png"
+        },
+        {
+            "name": "Hog Rider",
+            "img": "assets/clashofclan/Hog_Rider.png"
+        },
+        {
+            "name": "Valkyrie",
+            "img": "assets/clashofclan/Valkyrie.png"
+        },
+        {
+            "name": "Golem",
+            "img": "assets/clashofclan/Golem.png"
+        },
+        {
+            "name": "Witch",
+            "img": "assets/clashofclan/Witch.png"
+        },
+        {
+            "name": "Lava Hound",
+            "img": "assets/clashofclan/Lava_Hound.png"
+        },
+        {
+            "name": "Bowler",
+            "img": "assets/clashofclan/Bowler.png"
+        },
+        {
+            "name": "Ice Golem",
+            "img": "assets/clashofclan/Ice_Golem.png"
+        },
+        {
+            "name": "Headhunter",
+            "img": "assets/clashofclan/Headhunter.png"
+        }
+    ],
+    "Heros": [
+        {
+            "name": "Barbarian King",
+            "img": "assets/clashofclan/Barbarian_King.png"
+        },
+        {
+            "name": "Archer Queen",
+            "img": "assets/clashofclan/Archer_Queen.png"
+        },
+        {
+            "name": "Grand Warden",
+            "img": "assets/clashofclan/Grand_Warden.png"
+        },
+        {
+            "name": "Royal Champion",
+            "img": "assets/clashofclan/Royal_Champion.png"
+        }
+    ]
+}

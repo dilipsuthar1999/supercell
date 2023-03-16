@@ -1,0 +1,275 @@
+:root{
+    --primary-color: #F99C1F;
+    --secondary-color: #FFF5E9;
+    --dark-color: #000;
+    --gray-color: #757575;
+    --white-color: #fff;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans.ttf');
+}
+
+body{
+    font-family: 'OpenSans' !important;
+    margin: 0;
+    background: var(--dark-color);
+}
+
+.navbar-brand>img, .footer-brand>img{
+    width: auto;
+    height: 35px;
+}
+
+.navbar-toggler{
+    padding: 0;
+}
+
+.navbar-toggler>img{
+    width: 22px;
+    height: 25px;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+.navbar-nav .nav-link{
+    color: var(--white-color);
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover{
+    color: var(--gray-color);
+}
+
+.login-icon .nav-item .nav-link img{
+    width: 29px;
+    height: 29px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: var(--white-color);
+    margin: 15px 0px;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: var(--white-color);
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+    color: var(--white-color);
+    margin: 15px 0px;
+}
+
+.text-gray{
+    color: var(--gray-color);
+}
+
+.bg-img{
+    background: url(../images/illustration/bg-img.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.app-btn img{
+    margin: 15px 10px;
+    width: auto;
+    height: 40px;
+}
+
+.app-btn a:first-child img{
+    margin-left: 0;
+}
+
+.app-btn a:last-child img{
+    margin-right: 0;
+}
+
+.bg-color{
+    background: var(--primary-color);
+}
+
+.update-img{
+    height: 400px;
+    width: auto;
+}
+
+.social-links a img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    transition: 0.1s ease-in-out;
+}
+
+.social-links a img:hover{
+    transform: scale(1.2);
+}
+
+.footerLinks{
+    list-style: none;
+    padding: 0;
+}
+
+.footerLinks .footer-item{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footerLinks .footer-item .footer-link{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footerLinks .footer-item .footer-link:hover{
+    color: var(--gray-color);
+}
+
+hr{
+    background: var(--gray-color);
+}
+
+.mainconatiner .nav-item .nav-link{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--white-color);
+    padding: 8px 20px;
+    margin: 5px;
+    background: var(--gray-color);
+}
+
+.mainconatiner .nav-item .nav-link.active{
+    background: var(--primary-color);
+}
+
+.mainconatiner .nav-item .nav-link:hover{
+    background: var(--secondary-color);
+    color: var(--dark-color);
+}
+
+.coc-item-box{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 250px;
+    background: var(--secondary-color);
+    border-radius: 30px;
+    transition: 0.1s ease-in-out;
+}
+
+.coc-box:hover .coc-item-box{
+    background: var(--primary-color);
+}
+
+.coc-box img{
+    transition: 0.2s ease-in-out;
+}
+
+.coc-box:hover img{
+    transform: scale(1.2);
+}
+
+.coc-item-name{
+    color: var(--dark-color);
+    margin: 0;
+    padding: 10px 5px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+@media (max-width: 991.98px) { 
+    .order-no-1{
+        order: 1;
+    }
+
+    .order-no-2{
+        order: 2;
+    }
+
+    .order-no-3{
+        order: 3;
+    }
+
+    .order-no-4{
+        order: 4;
+    }
+
+    .footerLinks .footer-item{
+        display: block;
+    }
+
+    .footer-content-align{
+        flex-direction: column;
+    }
+
+    .footer-brand>img{
+        width: auto;
+        height: 65px;
+        margin-bottom: 20px;
+    }
+
+    .coc-item-box{
+        height: 200px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    h1{
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .app-btn img{
+        margin: 15px 5px;
+        width: auto;
+        height: 35px;
+    }
+
+    .footerLinks .footer-item .footer-link{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar-nav .nav-link{
+        margin-right: 15px;
+    }
+
+    h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    p{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .update-img{
+        height: 300px;
+    }
+
+    .coc-item-box{
+        height: 150px;
+    }
+}

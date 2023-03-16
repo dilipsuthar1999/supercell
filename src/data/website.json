@@ -1,0 +1,74 @@
+{
+    "logo": {
+        "name": "Clash of Clan",
+        "imgDark": "assets/images/dark-logo.png",
+        "imgLight": "assets/images/light-logo.png"
+    },
+    "heroSection": {
+        "title01": "Create your team and",
+        "title02": "Win the battle now!",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    "aboutSection": {
+        "title": "LEAD YOUR CLAN TO VICTORY!",
+        "paragraph": "Answer the call of the mustache! Join the international fray that is Clash of Clans. Customize your village, build an army and crush your opponents. Like using friendship to strike fear into your enemies? Join a Clan, or establish a Clashing legacy by creating your own. The choice is yours in this millions-strong community of Barbarians. Download for free and Clash on, Chief!",
+        "img": "assets/images/illustration/town-hall.png"
+    },
+    "updateSection": {
+        "title": "SEE THE LATEST",
+        "paragraph": "To stay on top of your game, keep an eye on the in-game News section. Follow us on social media for the latest chatter and sneak peeks on what the team is working on. Don’t be a stranger and join the conversation.",
+        "img": "assets/images/illustration/mobile-game.png"
+    },
+    "AppBtn": [
+        {
+            "appName": "Play Store",
+            "icon": "assets/images/icons/play-store.png",
+            "src": "#"
+        },
+        {
+            "appName": "Apple Store",
+            "icon": "assets/images/icons/apple-store.png",
+            "src": "#"
+        }
+    ],
+    "SocialBtn": [
+        {
+            "socialName": "Facebook",
+            "icon": "assets/images/icons/facebook.svg",
+            "src": "#"
+        },
+        {
+            "socialName": "Instagram",
+            "icon": "assets/images/icons/instagram.svg",
+            "src": "#"
+        },
+        {
+            "socialName": "Twitter",
+            "icon": "assets/images/icons/twitter.svg",
+            "src": "#"
+        },
+        {
+            "socialName": "LinkedIn",
+            "icon": "assets/images/icons/linkedin.svg",
+            "src": "#"
+        }
+    ],
+    "Icons": {
+        "creatorSupercell": {
+            "iconName": "Creator Supercell",
+            "icon": "assets/images/icons/creators-supercell.png"
+        },
+        "makeSupercell": {
+            "iconName": "Make Supercell",
+            "icon": "assets/images/icons/make-supercell.png"
+        },
+        "idSupercell": {
+            "iconName": "Id Supercell",
+            "icon": "assets/images/icons/id-supercell.png"
+        },
+        "menu": {
+            "iconName": "Menu Icon",
+            "icon": "assets/images/icons/menu.svg"
+        }
+    }
+}
